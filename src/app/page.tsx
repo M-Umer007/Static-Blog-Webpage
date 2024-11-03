@@ -1,11 +1,11 @@
-import Blog from "./landingPageComponents/[dynamicblog]/page"
-import './/globals.css'
-import HHHead from "./landingPageComponents/headerSM/page"
-import HeadMD from "./landingPageComponents/headerMD/page"
-import ReadOurBlog from "./landingPageComponents/readOurBlog/page"
-import BfrBlog from "./landingPageComponents/bfrdblock/page"
-import EndingBeforeFooter from "./landingPageComponents/BeforeFooterEnding/page"
-import Footer from "./landingPageComponents/footerthing/page"
+import Blog from "../components/landingPageComponents/[dynamicblog]/page"
+import './globals.css'
+import HHHead from "../components/landingPageComponents/headerSM/page"
+import HeadMD from "../components/landingPageComponents/headerMD/page"
+import ReadOurBlog from "../components/landingPageComponents/readOurBlog/page"
+import BfrBlog from "../components/landingPageComponents/bfrdblock/page"
+import EndingBeforeFooter from "../components/landingPageComponents/BeforeFooterEnding/page"
+import Footer from "../components/landingPageComponents/footerthing/page"
 // Home function 
 function Home(){
   return(  
